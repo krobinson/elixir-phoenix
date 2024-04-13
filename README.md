@@ -1,1 +1,1 @@
-# elixir-phoenix
+# elixir-phoenix-template
