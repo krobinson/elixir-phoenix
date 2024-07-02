@@ -12,9 +12,12 @@
 			"enableNonRootDocker": "true",
 			"moby": "false"
 		},
-		"ghcr.io/devcontainers-contrib/features/elixir-asdf:2": {},
+		"ghcr.io/devcontainers-contrib/features/elixir-asdf:2": {
+			"elixirVersion": "1.17.1-otp-27",
+			"erlangVersion": "27.0"
+		},
 		"ghcr.io/devcontainers-contrib/features/apt-packages:1": {
-			"packages": "postgresql-client"
+			"packages": "postgresql-client, npm"
 		}
 	}
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
